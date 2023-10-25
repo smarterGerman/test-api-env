@@ -1,0 +1,16 @@
+{
+  "name": "hide-api-key",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-cli": "^16.9.2"
+  },
+  "scripts": {
+    "dev": "http-server src -p 8080",
+    "netlify": "./node_modules/.bin/netlify"
+  },
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}
