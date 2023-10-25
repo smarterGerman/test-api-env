@@ -5,6 +5,7 @@ const handler = async (event) => {
 const {lat, long} = event.queryStringParameters
 
 const API_SECRET = process.env.API_SECRET
+console.log("hi");
 const url = `http://api.weatherstack.com/current?access_key=${API_SECRET}&query=${lat},${long}&forecast_days=4`
 
 
